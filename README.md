@@ -11,8 +11,6 @@ Hysteria协议限制，无法使用中转，只能直连，但是速度可能比
 ![v2rayN_folder](https://github.com/SamuelW9527/hysteria_manuel/raw/main/v2rayN_folder.png)
 3. 启动v2rayN
 4. 在v2rayN目录内右键新建一个文本文档，重命名为hysteria_config.json，复制下面配置进去修改对应参数并保存。  
-    **提示:如需修改配置，只需要双击节点然后点击编辑，修改对应参数即可**  
-    **如需导入多个节点，只需右键已有节点，选择克隆所选服务器，并双击进入编辑修改即可，不需要重复导入**  
     ``` json
     {
     "server": "服务器地址:8443",   //服务器地址自行修改
@@ -30,6 +28,8 @@ Hysteria协议限制，无法使用中转，只能直连，但是速度可能比
     }
     ```  
 5. v2rayN 服务器->添加自定义配置服务器，别名自行修改，地址点击浏览，选择hysteria_config.json，core类型选择hysteria，确定。  
+**提示:如需修改配置，只需要双击节点然后点击编辑，修改对应参数即可**  
+**如需导入多个节点，只需右键已有节点，选择克隆所选服务器，并双击进入编辑修改即可，不需要重复导入**  
 
 ### macOS or Linux(需有基础命令行知识):
 1. 下载[Hysteria核心](https://github.com/tobyxdd/hysteria/releases)(macOS:hysteria-tun-darwin, intel架构选择amd64, Apple Silicon选择arm64, Linux: 自行选择对应架构)，修改文件名为hysteria，并新建一个文件夹存放。
