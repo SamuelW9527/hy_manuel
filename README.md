@@ -12,18 +12,18 @@ Hysteria协议限制，无法使用中转，只能直连，但是速度可能比
 4. 在v2rayN目录内右键新建一个文本文档，重命名为hysteria_config.json，复制下面配置进去修改对应参数并保存。  
     ``` json
     {
-    "server": "服务器地址:8443",   //服务器地址自行修改
-    "up_mbps": 120,
-    "down_mbps": 1200,
-    "auth_str": "密码",  //自行修改
-    "socks5": {
-        "listen": "0.0.0.0:端口"   //此处端口自行设置为v2rayN的socks端口(v2rayN左下角有显示)
-    },
-    "http": {
-        "listen": "0.0.0.0:端口"  //此处端口自行设置为v2rayN的http端口(v2rayN左下角有显示)
-    },
-    "recv_window_conn": 50331648, 
-    "recv_window": 201326592
+        "server": "服务器地址:8443",   //服务器地址自行修改
+        "up_mbps": 120,
+        "down_mbps": 1200,
+        "auth_str": "密码",  //自行修改
+        "socks5": {
+            "listen": "0.0.0.0:端口"   //此处端口自行设置为v2rayN的socks端口(v2rayN左下角有显示)
+        },
+        "http": {
+            "listen": "0.0.0.0:端口"  //此处端口自行设置为v2rayN的http端口(v2rayN左下角有显示)
+        },
+        "recv_window_conn": 50331648, 
+        "recv_window": 201326592
     }
     ```  
 5. v2rayN 服务器->添加自定义配置服务器，别名自行修改，地址点击浏览，选择hysteria_config.json，core类型选择hysteria，确定。  
