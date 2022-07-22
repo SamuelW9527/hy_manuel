@@ -71,11 +71,11 @@ QUIC流接收窗口: 201326592
 * 测试环境统一为speedtest.net单线程测试(多线程测试无意义，只有下载时有用)，每个地区测试节点都一样
 * 广州移动家宽(500M)  
 Hysteria:  
-![cmjp2_hy.png](https://github.com/SamuelW9527/hysteria_manuel/raw/main/cmjp2_hy.png)  
+![cmjp2_hy.png](https://github.com/SamuelW9527/hy_manuel/raw/main/cmjp2_hy.png)  
 Trojan:  
-![cmjp2_trojan.png](https://github.com/SamuelW9527/hysteria_manuel/raw/main/cmjp2_trojan.png)
+![cmjp2_trojan.png](https://github.com/SamuelW9527/hy_manuel/raw/main/cmjp2_trojan.png)
 * 广州电信家宽(1000M)  
 Hysteria:  
-![ctjp2_hy.png](https://github.com/SamuelW9527/hysteria_manuel/raw/main/ctjp2_hy.png)  
+![ctjp2_hy.png](https://github.com/SamuelW9527/hy_manuel/raw/main/ctjp2_hy.png)  
 Trojan:  
-![ctjp2_trojan.png](https://github.com/SamuelW9527/hysteria_manuel/raw/main/ctjp2_trojan.png)
+![ctjp2_trojan.png](https://github.com/SamuelW9527/hy_manuel/raw/main/ctjp2_trojan.png)
