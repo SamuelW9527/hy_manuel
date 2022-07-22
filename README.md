@@ -1,7 +1,7 @@
 ## Hysteria使用教程
 Hysteria协议限制，无法使用中转，只能直连，但是速度可能比中转还快。  
 
-**注意：** 因为Hysteria使用udp传输，不同运营商、地区qos优先级或者限速级别均不同，未必比trojan更好，请自行测试。
+**注意：** 因为Hysteria使用udp传输，不同运营商、地区的QoS优先级或者限速级别均不同，未必比Trojan更好，请自行测试。
 
 ### Windows:
 **必要步骤:** 打开文件扩展名显示，[打开方法](https://support.microsoft.com/zh-cn/windows/windows-%E4%B8%AD%E7%9A%84%E5%B8%B8%E8%A7%81%E6%96%87%E4%BB%B6%E6%89%A9%E5%B1%95%E5%90%8D-da4a4430-8e76-89c5-59f7-1cdbbc75cb01)
