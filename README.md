@@ -7,8 +7,7 @@ Hysteria协议限制，无法使用中转，只能直连，但是速度可能比
 **必要步骤:** 打开文件扩展名显示，[打开方法](https://support.microsoft.com/zh-cn/windows/windows-%E4%B8%AD%E7%9A%84%E5%B8%B8%E8%A7%81%E6%96%87%E4%BB%B6%E6%89%A9%E5%B1%95%E5%90%8D-da4a4430-8e76-89c5-59f7-1cdbbc75cb01)
 * v2rayN:
 1. 下载[v2rayN.zip](https://github.com/2dust/v2rayN/releases/download/5.29/v2rayN.zip),以及[Hysteria核心](https://github.com/HyNetwork/hysteria/releases/download/v1.1.0/hysteria-tun-windows-6.0-amd64.exe)。
-2. 解压v2rayN.zip到任意目录，重命名下载的Hysteria核心(hysteria-tun-windows-6.0-amd64.exe)为**hysteria.exe**,并复制到v2rayN根目录。 此时v2rayN目录文件应如图所示(大概)  
-![v2rayN_folder](https://github.com/SamuelW9527/hysteria_manuel/raw/main/v2rayN_folder.png)
+2. 解压v2rayN.zip到任意目录，重命名下载的Hysteria核心(hysteria-tun-windows-6.0-amd64.exe)为**hysteria.exe**,并复制到v2rayN根目录。  
 3. 启动v2rayN
 4. 在v2rayN目录内右键新建一个文本文档，重命名为hysteria_config.json，复制下面配置进去修改对应参数并保存。  
     ``` json
